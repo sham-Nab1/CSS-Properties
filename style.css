@@ -1,0 +1,107 @@
+h1 {
+    color: brown;
+    font-size: 65px;
+    font-style: normal;
+    font-family: serif;
+    font-weight: bolder;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 60px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+h3 {
+    color: green;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+h4 {
+    background-color: blanchedalmond;
+    width: 300px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+    content: url(https://i.pinimg.com/564x/16/f0/a4/16f0a444b7ceb54a04e7f8af66a6317e.jpg)
+}
+
+.color{
+    background-color: #DC8665;
+    color:black;
+    padding: 50px;
+    margin: 20px;
+    font-size: large;
+}
+
+.image{
+    background-image: url(https://i.pinimg.com/564x/5e/a9/a9/5ea9a90c346dcb625b7c8fb35f6a66b9.jpg);
+    color:black;
+    padding: 50px;
+    margin: 20px;
+    font-size: large;
+}
+
+.block {
+    display: block;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+body {
+    font-family: Georgia, serif;
+    padding: 20px;
+}
+
+.inline {
+    background-color: lightblue; 
+    color: darkblue; 
+    padding: 5px; 
+    border-radius: 4px;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: #DC8665; 
+}  
+
+.relative {
+    position: relative;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.fixed {
+    position: fixed;
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 10px;
+    bottom: 10px; 
+    right: 10px; 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: #EEB462;
+    padding: 20px;
+    margin: 10px 0;
+}
+.Num{
+    background-color: #CD7672;
+    padding: 20px;
+    margin: 10px;
+    flex: 1; 
+}
